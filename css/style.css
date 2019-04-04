@@ -1,0 +1,86 @@
+html, body
+{
+	min-height: 100%;
+}
+
+body
+{
+	color: #fff;
+	background-color: #000;
+	margin: 0;
+	background-image: linear-gradient(150deg, rgba(130, 216, 192, 0), rgba(130, 216, 192, .25) 75%);
+	background-repeat: no-repeat;
+}
+
+header
+{
+	margin-top: -20px;
+	min-height: 100%;
+}
+
+h1
+{
+	font-family: 'ZCOOL XiaoWei', serif;
+	font-size: 40px;
+	color: #e1e1e1;
+	text-shadow: 1px 1px 0px #2c2e38, 2px 2px 0px #5c5f72;
+	letter-spacing: 10px;
+}
+
+p
+{
+	font-family: 'Titillium Web', serif;
+	font-size: 18px;
+}
+
+.container
+{
+	width: 640px;
+	margin: auto;
+	display: flex;
+	align-items: center;
+}
+
+header div.container
+{
+	height: 350px;
+}
+
+.sub_l
+{
+	text-align: center;
+	width: 410px;
+}
+
+.sub_r
+{
+	text-align: center;
+	width: 230px;
+}
+
+#info p
+{
+	color: #b2bcb6;
+}
+
+#infodiv1
+{
+	text-align: center;
+	width: 100%;
+}
+
+#infodiv2 h1, #infodiv3 h1, #infodiv4 h1
+{
+	font-size: 32px;
+}
+
+#pic
+{
+	border-radius: 50%;
+	filter: drop-shadow(0 0 20px #364e47);
+}
+
+hr
+{
+	color: rgb(128, 128, 128, 0.5);
+}
