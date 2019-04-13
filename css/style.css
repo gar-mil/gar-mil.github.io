@@ -27,17 +27,58 @@ h1
 	letter-spacing: 10px;
 }
 
+h2
+{
+	font-family: 'ZCOOL XiaoWei', serif;
+	font-size: 24px;
+	color: #e1e1e1;
+	text-shadow: 1px 1px 0px #2c2e38, 2px 2px 0px #5c5f72;
+	letter-spacing: 10px;
+}
+
+h3
+{
+	font-family: 'ZCOOL XiaoWei', serif;
+	font-size: 20px;
+	color: #e1e1e1;
+	text-shadow: 1px 1px 0px #2c2e38, 2px 2px 0px #5c5f72;
+}
+
+h3 a
+{
+	font-family: 'ZCOOL XiaoWei', serif;
+	font-size: 20px;
+	color: #e1e1e1;
+	text-shadow: 1px 1px 0px #2c2e38, 2px 2px 0px #5c5f72;
+}
+
+h3 a:visited
+{
+	font-family: 'ZCOOL XiaoWei', serif;
+	font-size: 20px;
+	color: #e1e1e1;
+	text-shadow: 1px 1px 0px #2c2e38, 2px 2px 0px #5c5f72;
+}
+
 p
 {
 	font-family: 'Titillium Web', serif;
 	font-size: 18px;
 }
 
+
 .container
 {
 	width: 640px;
 	margin: auto;
 	display: flex;
+	align-items: center;
+}
+
+.vertcontainer
+{
+	width: 640px;
+	margin: auto;
 	align-items: center;
 }
 
@@ -80,7 +121,62 @@ header div.container
 	filter: drop-shadow(0 0 20px #364e47);
 }
 
+#flsample, #cdlhdashboard
+{
+	border-radius: 5%;
+	filter: drop-shadow(0 0 20px #364e47);
+}
+
 hr
 {
 	color: rgb(128, 128, 128, 0.5);
+}
+
+.pressdiv
+{
+	background: rgba(178, 178, 178, 0.6);
+	margin: auto;
+	display: block;
+	border: solid 1px #CCC;
+	border-radius: 10px;
+	padding: 10px;
+	height: 100px;
+}
+
+.copyboxdiv
+{
+	background: rgba(178, 178, 178, 0.6);
+	margin: auto;
+	display: block;
+	border: solid 1px #CCC;
+	border-radius: 10px;
+	padding: 10px;
+}
+
+.pressthumb
+{
+	border-radius: 10px;
+	display: inline-block;
+	vertical-align: middle;
+	margin-right: 15px;
+}
+
+
+.headlinediv
+{
+	display: inline-block;
+	vertical-align: middle;
+	max-width: 475px;
+}
+
+.headlinediv h3
+{
+	padding: 0;
+	margin: 0;
+}
+
+.headlinediv p
+{
+	padding: 0;
+	margin: 0;
 }
