@@ -115,13 +115,13 @@ header div.container
 	font-size: 32px;
 }
 
-#pic
+.profilepic
 {
 	border-radius: 50%;
 	filter: drop-shadow(0 0 20px #364e47);
 }
 
-#flsample, #cdlhdashboard
+.gentleborder
 {
 	border-radius: 5%;
 	filter: drop-shadow(0 0 20px #364e47);
