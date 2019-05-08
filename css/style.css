@@ -5,10 +5,9 @@ html, body
 
 body
 {
-	color: #fff;
-	background-color: #000;
+	color: #444;
+	background-color: #eee;
 	margin: 0;
-	background-image: linear-gradient(150deg, rgba(130, 216, 192, 0), rgba(130, 216, 192, .25) 75%);
 	background-repeat: no-repeat;
 }
 
@@ -16,23 +15,52 @@ header
 {
 	margin-top: -20px;
 	min-height: 100%;
+	background: url(../img/uss.webp) no-repeat center center;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	background-color: #000;
+	filter: drop-shadow(0px 0px 4px #000);
 }
 
 h1
 {
 	font-family: 'ZCOOL XiaoWei', serif;
 	font-size: 40px;
-	color: #e1e1e1;
-	text-shadow: 1px 1px 0px #2c2e38, 2px 2px 0px #5c5f72;
+	color: #1d2127;
+	text-shadow: 0px 0px 3px #fff;
 	letter-spacing: 10px;
+}
+
+.sub h1
+{
+	color: #fff;
+	text-shadow:
+		3px 3px 0 #000,
+		-1px -1px 0 #000,  
+		1px -1px 0 #000,
+		-1px 1px 0 #000,
+		1px 1px 0 #000;
+}
+
+.sub p
+{
+	color: #eee;
+	text-shadow:
+		3px 3px 0 #000,
+		-1px -1px 0 #000,  
+		1px -1px 0 #000,
+		-1px 1px 0 #000,
+		1px 1px 0 #000;
 }
 
 h2
 {
 	font-family: 'ZCOOL XiaoWei', serif;
 	font-size: 24px;
-	color: #e1e1e1;
-	text-shadow: 1px 1px 0px #2c2e38, 2px 2px 0px #5c5f72;
+	color: #1d2127;
+	text-shadow: 0px 0px 3px #fff;
 	letter-spacing: 10px;
 }
 
@@ -40,24 +68,24 @@ h3
 {
 	font-family: 'ZCOOL XiaoWei', serif;
 	font-size: 20px;
-	color: #e1e1e1;
-	text-shadow: 1px 1px 0px #2c2e38, 2px 2px 0px #5c5f72;
+	color: #1d2127;
+	text-shadow: 0px 0px 3px #fff;
 }
 
 h3 a
 {
 	font-family: 'ZCOOL XiaoWei', serif;
 	font-size: 20px;
-	color: #e1e1e1;
-	text-shadow: 1px 1px 0px #2c2e38, 2px 2px 0px #5c5f72;
+	color: #1d2127;
+	text-shadow: 0px 0px 3px #fff;
 }
 
 h3 a:visited
 {
 	font-family: 'ZCOOL XiaoWei', serif;
 	font-size: 20px;
-	color: #e1e1e1;
-	text-shadow: 1px 1px 0px #2c2e38, 2px 2px 0px #5c5f72;
+	color: #1d2127;
+	text-shadow: 0px 0px 3px #fff;
 }
 
 p
@@ -71,7 +99,7 @@ p
 {
 	width: 640px;
 	margin: auto;
-	display: flex;
+	display: grid;
 	align-items: center;
 }
 
@@ -87,27 +115,21 @@ header div.container
 	height: 350px;
 }
 
-.sub_l
+.sub
 {
 	text-align: center;
-	width: 410px;
-}
-
-.sub_r
-{
-	text-align: center;
-	width: 230px;
 }
 
 #info p
 {
-	color: #b2bcb6;
+
 }
 
 #infodiv1
 {
 	text-align: center;
 	width: 100%;
+	margin-top: 25px;
 }
 
 #infodiv2 h1, #infodiv3 h1, #infodiv4 h1
@@ -134,7 +156,8 @@ hr
 
 .pressdiv
 {
-	background: rgba(178, 178, 178, 0.6);
+	background: rgba(178, 178, 178, 0.5);
+	background-image: linear-gradient(150deg, rgba(130, 216, 192, 0), rgba(130, 216, 192, .25) 75%);
 	margin: auto;
 	display: block;
 	border: solid 1px #CCC;
@@ -145,7 +168,8 @@ hr
 
 .copyboxdiv
 {
-	background: rgba(178, 178, 178, 0.6);
+	background: rgba(178, 178, 178, 0.5);
+	background-image: linear-gradient(150deg, rgba(130, 216, 192, 0), rgba(130, 216, 192, .25) 75%);
 	margin: auto;
 	display: block;
 	border: solid 1px #CCC;
@@ -159,6 +183,7 @@ hr
 	display: inline-block;
 	vertical-align: middle;
 	margin-right: 15px;
+	filter: drop-shadow(0 0 1px #364e47);
 }
 
 
@@ -179,4 +204,11 @@ hr
 {
 	padding: 0;
 	margin: 0;
+	color: #333;
+}
+
+#cdlhdashboard, #flsample
+{
+	margin-top:25px;
+	margin-bottom:25px;
 }
