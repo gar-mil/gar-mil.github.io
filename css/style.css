@@ -29,7 +29,7 @@ header
 
 header::before 
 {
-	background-image: url(../img/uss.webp);
+	background-image: url(../img/uss.jpg);
 	background-repeat: no-repeat;
 	background-position: center top;
 	background-size: cover;
