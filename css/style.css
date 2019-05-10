@@ -181,8 +181,6 @@ hr
 	display: block;
 	border: solid 1px #CCC;
 	border-radius: 10px;
-	padding: 10px;
-	height: 100px;
 }
 
 .copyboxdiv
@@ -198,13 +196,19 @@ hr
 
 .pressthumb
 {
-	border-radius: 10px;
+	border-radius: 10px 0px 0px 10px;
 	display: inline-block;
 	vertical-align: middle;
 	margin-right: 15px;
-	filter: drop-shadow(0 0 1px #364e47);
+	border-right: 1px solid #999;
 }
 
+.gitthumb
+{
+	display: inline-block;
+	vertical-align: middle;
+	margin-right: 15px;
+}
 
 .headlinediv
 {
